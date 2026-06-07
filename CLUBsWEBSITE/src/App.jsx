@@ -182,7 +182,7 @@ export default function App() {
           <div style={{ width: "34px", height: "34px", background: C.red, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <span style={{ color: "#fff", fontSize: "17px", fontWeight: 700 }}>K</span>
           </div>
-          <span style={{ fontSize: "19px", fontWeight: 700, letterSpacing: "0.02em" }}>KW Folk Club</span>
+          <span style={{ fontSize: "19px", fontWeight: 700, letterSpacing: "0.02em" }}>KW Community Club</span>
         </div>
         <div className="desktop-nav" style={{ display: "flex", alignItems: "center", gap: "32px" }}>
           {NAV_LINKS.map(l => <span key={l} className="nav-item" onClick={() => go(l)}>{l}</span>)}
@@ -265,7 +265,7 @@ export default function App() {
                 Built around the<br /><em style={{ color: C.goldLight }}>kitchen-table<br />song circle.</em>
               </h2>
               <p className="sans" style={{ color: "rgba(255,255,255,0.72)", fontSize: "15px", lineHeight: 1.85, marginBottom: "20px", fontWeight: 300 }}>
-                KW Folk Club began as six friends trading Romanian ballads on a winter Tuesday in Kitchener. A decade later we're 150+ members strong, hosting weekly sessions, monthly concerts and an annual folk weekend.
+                KW Community Club began as six friends trading Romanian ballads on a winter Tuesday in Kitchener. A decade later we're 150+ members strong, hosting weekly sessions, monthly concerts and an annual folk weekend.
               </p>
               <p className="sans" style={{ color: "rgba(255,255,255,0.72)", fontSize: "15px", lineHeight: 1.85, marginBottom: "36px", fontWeight: 300 }}>
                 No audition. Beginners and lifers share the same circle. We collect, sing and pass on songs so the next generation never has to wonder where they came from.
@@ -469,7 +469,7 @@ export default function App() {
           <div style={{ width: "30px", height: "30px", background: C.red, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <span style={{ color: "#fff", fontSize: "15px", fontWeight: 700 }}>K</span>
           </div>
-          <span style={{ fontSize: "17px", fontWeight: 700, color: C.creamDark }}>KW Folk Club</span>
+          <span style={{ fontSize: "17px", fontWeight: 700, color: C.creamDark }}>KW Community Club</span>
         </div>
         <div className="sans" style={{ display: "flex", gap: "28px", flexWrap: "wrap" }}>
           {NAV_LINKS.map(l => (
@@ -479,7 +479,7 @@ export default function App() {
             >{l}</span>
           ))}
         </div>
-        <span className="sans" style={{ fontSize: "12px", color: "rgba(250,247,242,0.25)" }}>© 2026 KW Folk Club</span>
+        <span className="sans" style={{ fontSize: "12px", color: "rgba(250,247,242,0.25)" }}>© 2026 KW Community Club</span>
       </footer>
     </div>
   );
